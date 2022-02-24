@@ -1,0 +1,422 @@
+@media (max-width: 1200px)
+  .menu
+    .menu_item
+      padding-right: 20px
+
+    .menu_link
+      font-size: 13px
+  .promo
+    .promo_header
+      font-size: 50px
+  .reason
+    .reason_wrapper
+      align-items: flex-start
+
+    .reason_descr
+      width: 300px
+
+    .blue_descr
+      font-size: 15px
+  .mobile
+    .mobile_item
+      width: 300px
+  .choise
+    padding: 36px 0 138px 0
+  .choise_2
+    padding: 4px 0 20px 0
+  .require
+    padding: 15px 0 55px 0
+  .world
+    padding: 39px 0 39px 0
+  footer
+    .f_center
+      width: 400px
+
+@media (max-width: 991px)
+  .menu
+    .menu_item
+      padding-right: 8px
+
+    .menu_link
+      font-size: 10px
+  .subheader
+    .subheader_logo
+      span
+        font-size: 20px
+
+    .subheader_official
+      font-size: 11px
+
+    .subheader_phone
+      font-size: 18px
+
+    .subheader_btn
+      margin-top: 21px
+      width: 100%
+      height: 40px
+  .promo
+    .promo_header
+      font-size: 40px
+
+    .promo_subheader
+      font-size: 30px
+  .reason
+    .reason_wrapper
+      margin-top: 10px
+
+    .reason_item
+      flex-direction: column
+      align-items: center
+
+    .reason_descr
+      margin-top: 20px
+      width: 300px
+
+    .blue_descr
+      font-size: 15px
+  .mobile
+    .mobile_item_subtitle
+      font-size: 20px
+      line-height: 25px
+  .choise
+    .title_everyday
+      margin-top: 30px
+      font-size: 35px
+
+    .subtitle_new
+      margin-top: 15px
+      font-size: 15px
+  .require
+    .title
+      margin-top: 30px
+      font-size: 35px
+  .world
+    .title_everyday
+      margin-top: 30px
+      font-size: 35px
+    .subtitle_new
+      margin-top: 15px
+      font-size: 15px
+  footer
+    flex-direction: column
+    height: 250px
+    .f_center_wrap
+      min-width: 320px
+    .f_center
+      order: 1
+      width: 100%
+      .f_item_next
+        padding: 0 8px
+      .f_wrapper_2
+        flex-wrap: wrap
+    .f_left
+      order: 2
+      margin-top: 18px
+    .f_right
+      order: 3
+      margin-bottom: 5px
+
+@media (max-width: 767px)
+  .menu
+    position: fixed
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    top: 0
+    left: -100%
+    width: 50%
+    height: 100vh
+    padding: 20px 15px
+    background-color: rgba(0, 0, 0, .8)
+    z-index: 15
+    transition: 0.6s all
+
+    &.menu_active
+      left: 0
+
+    .menu_item
+      padding-right: 0
+      border: none
+      margin: 10px 0
+
+    .menu_link
+      font-size: 20px
+  .hamburger
+    display: block
+    position: absolute
+    right: 10px
+    top: 25px
+    transform: translateY(-50%)
+    width: 26px
+    height: 12px
+
+    span
+      display: block
+      height: 2px
+      width: 100%
+      background-color: #fff
+      margin-bottom: 2px
+      z-index: 16
+      transition: 0.5s all
+
+    &.hamburger_active
+      span
+        margin-bottom: -2px
+
+        &:nth-child(1)
+          transform: translateY(3px) rotate(-45deg)
+
+        &:nth-child(2)
+          display: none
+
+        &:nth-child(3)
+          transform: translateY(3px) rotate(45deg)
+  .xs-hidden
+    display: none
+  .xs-visible
+    display: block
+  .subheader
+    .subheader_phone
+      display: block
+      margin-top: 10px
+      color: white
+      font-size: 16px
+      font-weight: 400
+      text-transform: uppercase
+      text-align: center
+
+    .subheader_btn
+      display: block
+      width: 200px
+      height: 40px
+      margin: 0 auto
+      margin-top: 10px
+  .promo
+    .promo_header
+      font-size: 40px
+      line-height: 45px
+  .reason
+    .reason_wrapper
+      flex-direction: column
+      align-items: center
+      justify-content: center
+  .mobile
+    .title
+      margin-top: 30px
+      font-size: 35px
+
+    .subtitle
+      margin-top: 15px
+
+    .mobile_item
+      margin-bottom: 30px
+  .choise
+    min-height: 430px
+
+    .title_everyday
+      margin-top: 28px
+      font-size: 30px
+
+    .subtitle_new
+      margin-top: 13px
+
+    .car
+      .uber_car
+        img
+          width: 500px
+          height: 321px
+  .choise_2
+    min-height: 250px
+
+    .title_next
+      margin-top: 150px
+      font-size: 15px
+  .require
+    .title
+      margin-top: 28px
+      font-size: 30px
+    .require_block
+      margin: 30px 0
+      .require_title
+        padding-left: 19px
+      .require_descr
+        padding-left: 19px
+  .world
+    min-height: 617px
+    .title_everyday
+      margin-top: 20px
+      font-size: 30px
+    .subtitle_new
+      margin-top: 10px
+  footer
+    flex-direction: column
+    height: 250px
+    .f_center_wrap
+      min-width: 320px
+    .f_center
+      order: 1
+      width: 100%
+      .f_item_next
+        padding: 0 8px
+      .f_wrapper_2
+        flex-wrap: wrap
+    .f_left
+      order: 2
+      margin-top: 18px
+    .f_right
+      order: 3
+      margin-bottom: 5px
+
+@media (max-width: 575px)
+  nav
+    height: 30px
+  .hamburger
+    top: 16px
+  .subheader
+    height: 60px
+
+    .subheader_official
+      display: none
+
+    .subheader_logo
+      margin-top: 20px
+
+      img
+        width: 20px
+        height: 20px
+
+      span
+        font-size: 14px
+
+    .subheader_phone
+      font-size: 12px
+      font-weight: 400
+      text-transform: uppercase
+      margin-top: 10px
+
+    .subheader_btn
+      width: 110px
+      height: 22px
+      font-size: 10px
+      margin-top: 6px
+  .promo
+    margin-top: -60px
+    min-height: 400px
+    padding: 113px 0 35px 0
+
+    .promo_descr
+      display: none
+
+    .promo_header
+      font-size: 30px
+      padding: 0 24px
+      line-height: 35px
+
+    .promo_subheader
+      font-size: 20px
+      margin-top: 33px
+      padding: 0 10px
+      line-height: 30px
+
+    .promo_btn
+      width: 210px
+      height: 50px
+      margin-top: 72px
+  .menu
+    width: 85%
+  .reason
+    padding: 22px 0 36px 0
+
+    .reason_header
+      font-size: 16px
+      margin-top: 15px
+      line-height: 16px
+
+    .reason_item
+      margin-top: 26px
+
+    .reason_round
+      width: 100px
+      height: 100px
+
+    .reason_descr
+      width: 250px
+      margin-left: 0px
+      text-align: left
+
+    .blue_descr
+      margin-top: 27px
+      font-size: 16px
+  .mobile
+    .title
+      margin-top: 15px
+      font-size: 16px
+
+    .subtitle
+      margin-top: 10px
+      font-size: 14px
+  .choise
+    min-height: 270px
+    .title_everyday
+      display: none
+    .subtitle_new
+      display: none
+    .car
+      .uber_car
+        margin-top: 20px
+        img
+          width: 300px
+          height: 221px
+  .choise_2
+    min-height: 150px
+    background-color: black
+    .title_next
+      margin-top: 40px
+      font-size: 19px
+      color: white
+  .require
+    padding: 30px 0 55px 0
+    .title
+      margin-top: 15px
+      font-size: 20px
+    .require_block
+      margin: 10px 0
+      .require_title
+        font-size: 15px
+      .require_list
+        margin-top: 15px
+        li
+          font-size: 14px
+          line-height: 20px
+          margin-bottom: 8px
+      .require_descr
+        margin-top: 5px
+        font-size: 13px
+        line-height: 20px
+  .world
+    min-height: 440px
+    padding: 29px 0 29px 0
+    .title_everyday
+      margin-top: 10px
+      font-size: 20px
+    .subtitle_new
+      margin-top: 5px
+      font-size: 13px
+  footer
+    flex-direction: column
+    height: 250px
+    .f_center_wrap
+      min-width: 320px
+    .f_center
+      order: 1
+      width: 100%
+      .f_item_next
+        padding: 0 8px
+      .f_wrapper_2
+        flex-wrap: wrap
+    .f_left
+      order: 2
+      margin-top: 18px
+    .f_right
+      order: 3
+      margin-bottom: 5px

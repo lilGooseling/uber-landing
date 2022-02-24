@@ -1,0 +1,236 @@
+* {
+    font-family: 'Roboto', sans-serif ;
+}
+
+nav {
+    height: 50px;
+    background-color: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    padding-top: 50px;
+    position: relative;
+    height: 134px;
+    background-color: rgba(0,0,0, .6);
+    z-index: 11;
+}
+
+.subheader_logo {
+    display: flex;
+    align-items: center;
+}
+
+.subheader .subheader_logo {
+    margin-top: 16px;
+    max-width: 100%;
+    text-decoration: none;
+}
+
+.subheader .subheader_logo span {
+    margin-left: 10px;
+    font-size: 26px;
+    text-align: left;
+    color: #fff;
+}
+
+.subheader .subheader_official {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.subheader_call {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+    text-align: right;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: right;
+    color: #fff;
+    text-decoration: none;
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.promo {
+    position: relative;
+    min-height: 800px;
+    background: url("../img/promo_bg.png") center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+    margin-top: -84px;
+}
+
+.promo_dark {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 10;
+}
+
+.promo .promo_header {
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    color: #fff;
+    z-index: 11;
+}
+
+.promo .promo_subheader {
+    position: relative;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 22px;
+    color: #fff;
+    z-index: 11;
+}
+
+.promo .promo_descr {
+    position: relative;
+    margin-top: 23px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    z-index: 11;
+}
+
+.promo .promo_btn {
+    position: relative;
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    z-index: 12;
+}
+
+.reason {
+    min-height: 900px;
+    padding: 71px 0 65px 0;
+}
+
+.reason_btn {
+    margin: 0 auto;
+    position: relative;
+    width: 112px;
+    line-height: 24px;
+    background-color: #000;
+    font-size: 11px;
+    font-weight: 100;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reason_header {
+    position: relative;
+    margin-top: 38px;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    color: #222;
+    text-transform: uppercase;
+}
+
+.reason_wrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.reason_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    flex: 0 0 auto;
+}
+
+.reason_item {
+    margin-top: 40px;
+    display: flex;
+    width: 45%;
+}
+
+.reason_descr {
+    margin-left: 26px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+    color: #202020;
+}
+
+.blue_descr {
+    font-size: 17px;
+    font-weight: 400;
+    color: #1eacc7;
+}
