@@ -272,6 +272,12 @@
     height: 30px
   .hamburger
     top: 16px
+    &.hamburger_active
+      span
+        &:nth-child(1)
+          transform: translateY(5px) rotate(-45deg)
+        &:nth-child(3)
+          transform: translateY(5px) rotate(45deg)
   .subheader
     height: 60px
 
@@ -299,6 +305,8 @@
       height: 22px
       font-size: 10px
       margin-top: 6px
+      &:hover
+        background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
   .promo
     margin-top: -60px
     min-height: 400px
@@ -324,6 +332,12 @@
       margin-top: 72px
   .menu
     width: 85%
+    .menu_item
+      width: 100%
+      text-align: center
+      padding: 5px 0
+    .menu_link
+      display: block
   .reason
     padding: 22px 0 36px 0
 
@@ -341,7 +355,7 @@
 
     .reason_descr
       width: 250px
-      margin-left: 0px
+      margin-left: 0
       text-align: left
 
     .blue_descr
