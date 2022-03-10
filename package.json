@@ -1,0 +1,27 @@
+{
+  "name": "uber-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilGooseling/Uber-Landing.git"
+  },
+  "author": "lilGooseling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilGooseling/Uber-Landing/issues"
+  },
+  "homepage": "https://github.com/lilGooseling/Uber-Landing#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^5.1.0"
+  }
+}
